@@ -16,9 +16,10 @@ module.exports = {
         'alloy',
         'alloy/react',
         'alloy/typescript',
+        "plugin:jsx-a11y/recommended",
         "plugin:prettier/recommended",
     ],
-    plugins: ["react-hooks", "prettier"],
+    plugins: ["react-hooks", "jsx-a11y", "prettier"],
     // 0：关闭该条规则；1：违反这条规则，会抛出一个警告；2：违反这条规则，会抛出一个错误。
     rules: {
         "react/react-in-jsx-scope": 0,
