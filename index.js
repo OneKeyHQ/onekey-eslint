@@ -23,10 +23,13 @@ module.exports = {
     // 0：关闭该条规则；1：违反这条规则，会抛出一个警告；2：违反这条规则，会抛出一个错误。
     rules: {
         "react/react-in-jsx-scope": 0,
+        "react/jsx-wrap-multilines": 0,
         "react/display-name": 1,
         "prettier/prettier": 2,//表示被prettier标记的地方抛出错误
         "react-hooks/rules-of-hooks": 2,
         "react-hooks/exhaustive-deps": 1,
+        "max-params": 0,
+        "@typescript-eslint/explicit-member-accessibility": 0,
     },
     settings: {
         react: {
