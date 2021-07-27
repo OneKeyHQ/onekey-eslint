@@ -22,13 +22,14 @@
     "typescript",
     "onekey"
   ],
-  "author": "",
+  "author": "OneKey",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/OneKeyHQ/onekey-eslint/issues"
   },
   "homepage": "https://github.com/OneKeyHQ/onekey-eslint#readme",
   "devDependencies": {
+    "@onekeyhq/eslint-plugin-literal-blacklist": "0.0.1",
     "@typescript-eslint/eslint-plugin": "^4.28.2",
     "@typescript-eslint/parser": "^4.28.2",
     "eslint": "^7.31.0",

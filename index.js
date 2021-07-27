@@ -18,8 +18,9 @@ module.exports = {
         'alloy/typescript',
         "plugin:jsx-a11y/recommended",
         "plugin:prettier/recommended",
+        "plugin:@onekeyhq/literal-blacklist/recommended",
     ],
-    plugins: ["react-hooks", "jsx-a11y", "prettier"],
+    plugins: ["react-hooks", "jsx-a11y", "prettier", "@onekeyhq/literal-blacklist"],
     // 0：关闭该条规则；1：违反这条规则，会抛出一个警告；2：违反这条规则，会抛出一个错误。
     rules: {
         "react/react-in-jsx-scope": 0,
