@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-onekey",
+  "name": "@onekeyhq/eslint-config-onekey",
   "version": "1.0.0",
   "description": "onekey-eslint rules",
   "main": "index.js",
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OneKeyHQ/onekey-eslint.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "eslint",
