@@ -1,6 +1,6 @@
 {
   "name": "@onekeyhq/eslint-config-onekey",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "onekey-eslint rules",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "url": "https://github.com/OneKeyHQ/onekey-eslint/issues"
   },
   "homepage": "https://github.com/OneKeyHQ/onekey-eslint#readme",
-  "devDependencies": {
+  "dependencies": {
     "@onekeyhq/eslint-plugin-literal-blacklist": "0.0.1",
     "@typescript-eslint/eslint-plugin": "^4.28.2",
     "@typescript-eslint/parser": "^4.28.2",
@@ -40,12 +40,5 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.3.2",
     "typescript": "^4.3.5"
-  },
-  "peerDependencies": {
-    "@onekeyhq/eslint-plugin-literal-blacklist": ">=0.0.1",
-    "eslint-config-alloy": ">=4.2.0",
-    "eslint-config-prettier": ">=8.3.0",
-    "eslint-plugin-prettier": ">=3.4.0",
-    "prettier": ">=2.3.2"
   }
 }
