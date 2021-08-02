@@ -1,6 +1,6 @@
 {
   "name": "@onekeyhq/eslint-config-onekey",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "onekey-eslint rules",
   "main": "index.js",
   "scripts": {
