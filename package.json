@@ -1,6 +1,6 @@
 {
-  "name": "@onekeyhq/eslint-config-onekey",
-  "version": "1.0.9",
+  "name": "@onekeyfe/eslint-config-onekey",
+  "version": "1.0.12",
   "description": "onekey-eslint rules",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OneKeyHQ/onekey-eslint.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "eslint",
@@ -29,7 +26,7 @@
   },
   "homepage": "https://github.com/OneKeyHQ/onekey-eslint#readme",
   "dependencies": {
-    "@onekeyhq/eslint-plugin-literal-blacklist": "0.0.1",
+    "@onekeyfe/eslint-plugin-literal-blacklist": "0.0.2",
     "@typescript-eslint/eslint-plugin": "^4.28.2",
     "@typescript-eslint/parser": "^4.28.2",
     "eslint": "^7.31.0",
