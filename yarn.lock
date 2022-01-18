@@ -88,10 +88,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@onekeyfe/eslint-plugin-literal-blacklist@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@onekeyfe/eslint-plugin-literal-blacklist/-/eslint-plugin-literal-blacklist-0.0.2.tgz#371ae66b742f918a3c3d1a7f60801105915823b9"
-  integrity sha512-giXoDtsPwtti8lhGO/t3iA0IefsnYcIHW/pODcoIFL5pzVQetjpatvE69Zkz3QNGJ/WqDIjq8iZoc6/NQslYgA==
+"@onekeyfe/eslint-plugin-literal-blacklist@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@onekeyfe/eslint-plugin-literal-blacklist/-/eslint-plugin-literal-blacklist-0.0.3.tgz#971b056740979dbeb8135cb36887ab4b9ff377fb"
+  integrity sha512-JSPJrInyxppnBLalVL+4U1f4pZwxcDalsrzUbQc02Fzrk5AD2rqHBDravZ0LvpBaOWKcgsU7KYuuXsY+Nrorbw==
   dependencies:
     requireindex "~1.1.0"
 
